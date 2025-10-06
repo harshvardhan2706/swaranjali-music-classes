@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import mlImg from "../images/m-l-gandharv.jpg";
 import radhikaImg from "../images/radhika.png";
 import harshImg from "../images/pic.jpg";
+import narendraImg from "../images/NICKYIMG.jpg";
 
 const Family = () => {
   const { t } = useTranslation();
@@ -26,6 +27,12 @@ const Family = () => {
       role: "Editorial & Tech Support",
       about: t("harshAbout"),
       img: harshImg,
+    },
+        {
+      name: "Narendra Kumar Gandharv",
+      role: "Mentor",
+      about: t("narendraAbout"),
+      img: narendraImg,
     },
   ];
 

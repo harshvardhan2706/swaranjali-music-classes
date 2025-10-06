@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/*
+  You can add your custom Tailwind directives here later, for example:
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  The Tailwind CLI will process this file and output a compiled CSS file
+  (e.g. `src/output.css`) which should be imported by the app.
+*/

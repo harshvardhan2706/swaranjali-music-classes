@@ -18,6 +18,15 @@ body {
   }
 }
 
+/* Reserve space for fixed navbar so page content starts below it in all environments */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  padding-top: var(--nav-height);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -33,12 +33,19 @@ const Exams = () => {
           Qualified students get official certificates to enhance their musical career.
         </p>
 
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          className="mt-8 bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition"
+        <a
+          href="https://sskalakendra.org/"
+          target="_blank"
+          rel="noreferrer"
+          className="inline-block mt-8"
         >
-          Know More
-        </motion.button>
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition"
+          >
+            Know More
+          </motion.div>
+        </a>
       </motion.div>
     </section>
   );

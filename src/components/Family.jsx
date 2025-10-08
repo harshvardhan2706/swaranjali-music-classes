@@ -5,6 +5,8 @@ import mlImg from "../images/m-l-gandharv.jpg";
 import radhikaImg from "../images/radhika.png";
 import harshImg from "../images/pic.jpg";
 import narendraImg from "../images/NICKYIMG.jpg";
+import deepakImg from "../images/deepak1.png";
+
 
 const Family = () => {
   const { t } = useTranslation();
@@ -17,23 +19,29 @@ const Family = () => {
       img: mlImg,
     },
     {
+      name: "Deepak Gandharv",
+      role: "Co-Founder & Mentor",
+      about: t("deepakAbout"),
+      img: deepakImg
+    },
+    {
       name: "Radhika Gandharv",
       role: "Mentor",
       about: t("radhikaAbout"),
-      img: radhikaImg,
-    },
-    {
-      name: "Harshvardhan Gandharv",
-      role: "Editorial & Tech Support",
-      about: t("harshAbout"),
-      img: harshImg,
+      img: radhikaImg
     },
         {
       name: "Narendra Kumar Gandharv",
       role: "Mentor",
       about: t("narendraAbout"),
-      img: narendraImg,
+      img: narendraImg
     },
+    {
+      name: "Harshvardhan Gandharv",
+      role: "Mentor, Editorial & Tech Support",
+      about: t("harshAbout"),
+      img: harshImg
+    }
   ];
 
   return (

@@ -7,6 +7,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* navbar height variable: default 80px, reduce on small screens */
+:root {
+  --nav-height: 80px;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --nav-height: 72px; /* slightly smaller on small screens */
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

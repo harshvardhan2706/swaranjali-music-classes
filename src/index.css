@@ -24,7 +24,14 @@ html, body, #root {
 }
 
 body {
-  padding-top: var(--nav-height);
+  /* use fallback 80px if variable is missing in production */
+  padding-top: var(--nav-height, 80px);
+}
+
+/* Ensure navbar explicitly picks up the same height and stays on top */
+nav {
+  height: var(--nav-height, 80px);
+  z-index: 9999; /* keep navbar above hero */
 }
 
 code {
